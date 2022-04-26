@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="static/google.css">
+    <title>Document</title>
+</head>
+<body>
+<form class="example" method = "POST">
+  <input type="text" placeholder="Search.." name="search"> 
+  <button type="submit" class="btn btn-primary">Search</button>
+  {% for e in data %}
+        <div class='post'>
+            <p>{{ data }}</p>
+        </div>
+  {% endfor %}
+</form>
+</body>
+</html>

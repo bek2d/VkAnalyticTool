@@ -1,0 +1,20 @@
+/* css change font of body tag to arial */
+@import url('http://fonts.cdnfonts.com/css/liberation-sans');
+
+body{
+    font-family: 'Liberation Sans', sans-serif;
+    font-size: 14px;
+    line-height: 21.98px;
+}
+
+.container {
+    margin: 10px 50px;
+    text-align: left;
+  }
+  
+  .inline-block {
+    display: inline-block;
+    text-align: center;
+    transform: translateX(-50%);
+  }
+
